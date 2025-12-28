@@ -477,34 +477,36 @@
               ×
             </button>
 
-            <button
-              className="modalArrow left"
-              onClick={prevImage}
-              aria-label="Previous image"
-              type="button"
-            >
-              ‹
-            </button>
+            <div className="modalShell" onMouseDown={(e) => e.stopPropagation()}>
+              <button
+                className="modalArrow left"
+                onClick={prevImage}
+                aria-label="Previous image"
+                type="button"
+              >
+                ‹
+              </button>
 
-            <div className="modalContent">
-              <img
-                className="modalImage"
-                src={projects[activeProject].images[activeImage]}
-                alt={`${projects[activeProject].title} - ${activeImage + 1}`}
-              />
-              <div className="modalCounter">
-                {activeImage + 1} / {projects[activeProject].images.length}
+              <div className="modalContent">
+                <img
+                  className="modalImage"
+                  src={projects[activeProject].images[activeImage]}
+                  alt={`${projects[activeProject].title} - ${activeImage + 1}`}
+                />
+                <div className="modalCounter">
+                  {activeImage + 1} / {projects[activeProject].images.length}
+                </div>
               </div>
-            </div>
 
-            <button
-              className="modalArrow right"
-              onClick={nextImage}
-              aria-label="Next image"
-              type="button"
-            >
-              ›
-            </button>
+              <button
+                className="modalArrow right"
+                onClick={nextImage}
+                aria-label="Next image"
+                type="button"
+              >
+                ›
+              </button>
+            </div>
           </div>
         )}
 
