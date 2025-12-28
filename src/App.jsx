@@ -96,105 +96,105 @@ export default function App() {
   
 
   const projects = [
-    {
-      title: "Claudy Nails",
-      tags: ["PHP", "HTML", "CSS", "JavaScript"],
-      description:
-        "This is a student project website for a nail salon that showcases services, nail designs, pricing, and a simple online booking feature for scheduling appointments.",
-      images: [
-        "PROJECT2/cn1.png",
-        "PROJECT2/cn2.png",
-        "PROJECT2/cn3.png",
-        "PROJECT2/cn4.png",
-        "PROJECT2/cn5.png",
-        "PROJECT2/cn6.png",
-        "PROJECT2/cn7.png",
-        "PROJECT2/cn8.png",
-        "PROJECT2/cn9.png",
-        "PROJECT2/cn10.png",
-        "PROJECT2/cn11.png",
-        "PROJECT2/cn12.png",
-      ],
-    },
-    {
-      title: "Twice Fandom Website",
-      tags: ["HTML", "CSS", "JavaScript", "Bootstrap"],
-      description:
-        "This is a project fan website dedicated to the K-pop group TWICE, featuring member profiles, albums, songs, and media content for fans to explore and enjoy.",
-      images: [
-        "PROJECT3/fw1.png",
-        "PROJECT3/fw2.png",
-        "PROJECT3/fw3.png",
-        "PROJECT3/fw4.png",
-        "PROJECT3/fw5.png",
-        "PROJECT3/fw6.png",
-        "PROJECT3/fw7.png",
-        "PROJECT3/fw8.png",
-        "PROJECT3/fw9.png",
-        "PROJECT3/fw10.png",
-        "PROJECT3/fw11.png",
-        "PROJECT3/fw12.png",
-      ],
-    },
-    {
-      title: "INFINITY ESTATE",
-      tags: ["PHP", "HTML", "CSS", "JavaScript"],
-      description:
-        "INFINITY ESTATE is a project e-commerce website for real estate listings, allowing users to browse properties, view details and prices, and contact agents easily.",
-      images: [
-        "PROJECT1/1.png",
-        "PROJECT1/2.png",
-        "PROJECT1/3.png",
-        "PROJECT1/4.png",
-        "PROJECT1/5.png",
-        "PROJECT1/6.png",
-        "PROJECT1/7.png",
-        "PROJECT1/8.png",
-        "PROJECT1/9.png",
-        "PROJECT1/10.png",
-        "PROJECT1/11.png",
-        "PROJECT1/12.png",
-        "PROJECT1/13.png",
-        "PROJECT1/14.png",
-        "PROJECT1/15.png",
-        "PROJECT1/16.png",
-        "PROJECT1/17.png",
-      ],
-    },
-    {
-      title: "ICA ID Scanner",
-      tags: ["Laravel", "JavaScript", "HTML", "Tailwind"],
-      description:
-        "A capstone project designed to scan and extract information from IDs for quick verification, attendance monitoring and data entry.",
-      images: [
-        "CAPSTONE/1.png",
-        "CAPSTONE/2.jpg",
-        "CAPSTONE/3.png",
-        "CAPSTONE/4.jpg",
-        "CAPSTONE/5.png",
-        "CAPSTONE/6.png",
-        "CAPSTONE/7.png",
-        "CAPSTONE/8.png",
-        "CAPSTONE/9.png",
-        "CAPSTONE/10.png",
-        "CAPSTONE/11.png",
-        "CAPSTONE/12.png",
-        "CAPSTONE/13.png",
-        "CAPSTONE/14.png",
-        "CAPSTONE/15.png",
-        "CAPSTONE/16.png",
-        "CAPSTONE/17.png",
-        "CAPSTONE/18.png",
-        "CAPSTONE/19.png",
-        "CAPSTONE/20.png",
-        "CAPSTONE/21.png",
-        "CAPSTONE/22.png",
-        "CAPSTONE/23.png",
-        "CAPSTONE/24.png",
-        "CAPSTONE/25.png",
-      ],
-    },
-  ];
+  {
+    title: "Claudy Nails",
+    tags: ["PHP", "HTML", "CSS", "JavaScript"],
+    description:
+      "This is a student project website for a nail salon that showcases services, nail designs, pricing, and a simple online booking feature for scheduling appointments.",
+    images: [
+      publicUrl("PROJECT2/cn1.png"),
+      publicUrl("PROJECT2/cn2.png"),
+      publicUrl("PROJECT2/cn3.png"),
+      publicUrl("PROJECT2/cn4.png"),
+      publicUrl("PROJECT2/cn5.png"),
+      publicUrl("PROJECT2/cn6.png"),
+      publicUrl("PROJECT2/cn7.png"),
+      publicUrl("PROJECT2/cn8.png"),
+      publicUrl("PROJECT2/cn9.png"),
+      publicUrl("PROJECT2/cn10.png"),
+      publicUrl("PROJECT2/cn11.png"),
+      publicUrl("PROJECT2/cn12.png"),
+    ],
+  },
+  {
+    title: "Twice Fandom Website",
+    tags: ["HTML", "CSS", "JavaScript", "Bootstrap"],
+    description:
+      "This is a project fan website dedicated to the K-pop group TWICE, featuring member profiles, albums, songs, and media content for fans to explore and enjoy.",
+    images: [
+      publicUrl("PROJECT3/fw1.png"),
+      publicUrl("PROJECT3/fw2.png"),
+      publicUrl("PROJECT3/fw3.png"),
+      publicUrl("PROJECT3/fw4.png"),
+      publicUrl("PROJECT3/fw5.png"),
+      publicUrl("PROJECT3/fw6.png"),
+      publicUrl("PROJECT3/fw7.png"),
+      publicUrl("PROJECT3/fw8.png"),
+      publicUrl("PROJECT3/fw9.png"),
+      publicUrl("PROJECT3/fw10.png"),
+      publicUrl("PROJECT3/fw11.png"),
+      publicUrl("PROJECT3/fw12.png"),
+    ],
+  },
+  {
+    title: "INFINITY ESTATE",
+    tags: ["PHP", "HTML", "CSS", "JavaScript"],
+    description:
+      "INFINITY ESTATE is a project e-commerce website for real estate listings, allowing users to browse properties, view details and prices, and contact agents easily.",
+    images: [
+      publicUrl("PROJECT1/1.png"),
+      publicUrl("PROJECT1/2.png"),
+      publicUrl("PROJECT1/3.png"),
+      publicUrl("PROJECT1/4.png"),
+      publicUrl("PROJECT1/5.png"),
+      publicUrl("PROJECT1/6.png"),
+      publicUrl("PROJECT1/7.png"),
+      publicUrl("PROJECT1/8.png"),
+      publicUrl("PROJECT1/9.png"),
+      publicUrl("PROJECT1/10.png"),
+      publicUrl("PROJECT1/11.png"),
+      publicUrl("PROJECT1/12.png"),
+      publicUrl("PROJECT1/13.png"),
+      publicUrl("PROJECT1/14.png"),
+      publicUrl("PROJECT1/15.png"),
+      publicUrl("PROJECT1/16.png"),
+      publicUrl("PROJECT1/17.png"),
+    ],
+  },
+  {
+    title: "ICA ID Scanner",
+    tags: ["Laravel", "JavaScript", "HTML", "Tailwind"],
+    description:
+      "A capstone project designed to scan and extract information from IDs for quick verification, attendance monitoring and data entry.",
+    images: [
+      publicUrl("CAPSTONE/1.png"),
+      publicUrl("CAPSTONE/2.jpg"),
+      publicUrl("CAPSTONE/3.png"),
+      publicUrl("CAPSTONE/4.jpg"),
+      publicUrl("CAPSTONE/5.png"),
+      publicUrl("CAPSTONE/6.png"),
+      publicUrl("CAPSTONE/7.png"),
+      publicUrl("CAPSTONE/8.png"),
+      publicUrl("CAPSTONE/9.png"),
+      publicUrl("CAPSTONE/10.png"),
+      publicUrl("CAPSTONE/11.png"),
+      publicUrl("CAPSTONE/12.png"),
+      publicUrl("CAPSTONE/13.png"),
+      publicUrl("CAPSTONE/14.png"),
+      publicUrl("CAPSTONE/15.png"),
+      publicUrl("CAPSTONE/16.png"),
+      publicUrl("CAPSTONE/17.png"),
+      publicUrl("CAPSTONE/18.png"),
+      publicUrl("CAPSTONE/19.png"),
+      publicUrl("CAPSTONE/20.png"),
+      publicUrl("CAPSTONE/21.png"),
+      publicUrl("CAPSTONE/22.png"),
+      publicUrl("CAPSTONE/23.png"),
+      publicUrl("CAPSTONE/24.png"),
+      publicUrl("CAPSTONE/25.png"),
+    ],
+  },
+];
 
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [activeProject, setActiveProject] = useState(0);
@@ -343,7 +343,7 @@ export default function App() {
               </div>
             </div>
 
-            <a className="downloadBtn" href="BAJO_CV.pdf" download>
+            <a className="downloadBtn" href={publicUrl("BAJO_CV.pdf")} download>
               Download CV
             </a>
           </div>
