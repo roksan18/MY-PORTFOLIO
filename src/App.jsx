@@ -543,7 +543,7 @@ export default function App() {
             <div className="footerSocial">
               <a
                 className="socialBtn"
-                href="https://github.com/yourusername"
+                href="https://github.com/"
                 target="_blank"
                 rel="noreferrer"
                 aria-label="GitHub"
@@ -553,7 +553,7 @@ export default function App() {
 
               <a
                 className="socialBtn"
-                href="https://facebook.com/yourusername"
+                href="https://www.facebook.com/ese.mel.7330"
                 target="_blank"
                 rel="noreferrer"
                 aria-label="Facebook"
@@ -563,7 +563,7 @@ export default function App() {
 
               <a
                 className="socialBtn"
-                href="https://t.me/yourusername"
+                href="https://web.telegram.org/k/#@pangschoolpurposes"
                 target="_blank"
                 rel="noreferrer"
                 aria-label="Telegram"
@@ -573,7 +573,7 @@ export default function App() {
 
               <a
                 className="socialBtn"
-                href="https://instagram.com/yourusername"
+                href="https://www.instagram.com/cheezikimbap/"
                 target="_blank"
                 rel="noreferrer"
                 aria-label="Instagram"
